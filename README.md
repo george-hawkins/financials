@@ -226,12 +226,12 @@ You can see that the graph looks different from "VTI in USD" but not as dramatic
 
 ```
 >>> plt.figure(5)
->>> plt.legend()
 >>> vti_close_df["chf"].plot(label="VTI in CHF")
 >>> vti_close_df["Close"].plot(label="VTI in USD")
+>>> plt.legend()
 ```
 
-Note: we can do the same with a little more explicit control, i.e. an explicit figure and axes subplot:
+Note that we can do the same with a little more explicit control, i.e. an explicit figure and axes subplot:
 
 ```
 >>> fig, ax = plt.subplots()
