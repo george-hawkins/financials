@@ -239,3 +239,7 @@ Note that we can do the same with a little more explicit control, i.e. an explic
 >>> ax.plot(vti_close_df.index, vti_close_df["chf"], label="VTI in CHF")
 >>> ax.legend()
 ```
+
+And the results:
+
+![VTI USD CHF](vti-usd-chf.png)
