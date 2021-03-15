@@ -46,7 +46,7 @@ $ python
 
 You should see a simple straight line chart.
 
-Note: by default `matplotlib` uses the `macosx` backend on MacOS. This didn't work by default for me and I didn't investigate why.
+Note: by default `matplotlib` uses the `macosx` backend on MacOS. This didn't work by default for me and I didn't investigate why - I just switched to using `TkAgg` instead (as seen above).
 
 For more on backends, see [here](https://matplotlib.org/stable/tutorials/introductory/usage.html?highlight=tkagg#backends).
 
